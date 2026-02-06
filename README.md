@@ -64,7 +64,7 @@ Open Notepad or preferred text editor as Administrator, then open:
 ```bash
 C:\Program Files (x86)\ossec-agent\ossec.conf
 ```
-Were looking for the `<syscheck>` section near `File intergrity monitoring`.
+We're looking for the `<syscheck>` section near `File intergrity monitoring`.
 ![FIM Module](screenshots/4_fim_module.png)
 
 ---
