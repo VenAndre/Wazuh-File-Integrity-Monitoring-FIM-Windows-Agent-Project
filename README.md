@@ -95,7 +95,7 @@ Were looking for the `<syscheck>` section near `File intergrity monitoring`.
 
   💡 Keep this file open for the nest steps
   
-### 🎯 Next, I want monitor and detect registry persistence or modifications.
+### 🎯 Next, I want to monitor and detect registry persistence or modifications.
 
 ---
 ### 6️⃣ Monitor Registry Paths 
