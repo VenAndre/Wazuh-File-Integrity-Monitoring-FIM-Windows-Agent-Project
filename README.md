@@ -145,7 +145,6 @@ This extended document details shows us exactly **`what`** file was changed, **`
 ✅This confirms that alert configuration and SIEM alerts are working for the target directory.
 
 ---
-
 ### 9️⃣ Testing for Registry Persistence
 I will use a **`service-based`** persistence:
 ```bash
@@ -159,6 +158,19 @@ Let's check the Wazuh SIEM Dashboard for alerts:
 ![Registry](screenshots/16_registry_test.png) 
 
 ✅This confirms that alert configuration and SIEM alerts are working for the target registry path.
+
+---
+## 🛠 Tools Used
+
+- GitHub
+- Powershell
+- Wazuh SIEM
+- Wazuh Agent (Windows)
+- Wazuh Web Interface (Dashboard)
+- Windows Registry
+  
+---
+
 
 
 
