@@ -87,7 +87,7 @@ Were looking for the `<syscheck>` section near `File intergrity monitoring`.
 
 - Wazuh FIM uses the **`recursion_level`** attribute to define how deep into subdirectories or files the agent scans.
   
-  💡 For this project I will files within my specified directory and 1-level deep subfolders `recursion_level="1"`
+  💡 For this project I will go within my specified directory and 1-level deep subfolders `recursion_level="1"`
 
 - One of my favorite capabilties of Wazuh FIM is the **`whodata`** attribute which is real-time capability that identifies not only **what** file was changed, but **who** and **what process** made the change.
 
