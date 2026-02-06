@@ -93,7 +93,7 @@ Were looking for the `<syscheck>` section near `File intergrity monitoring`.
 
   💡 Keep this file open for the nest steps
   
-### 🎯 Next, I wanna monitor and detect registry persistence or modifications.
+### 🎯 Next, I want monitor and detect registry persistence or modifications.
 
 ---
 ### 6️⃣ Monitor Registry Paths 
@@ -110,6 +110,7 @@ Restart the Wazuh agent:
 ```bash
 Restart-Service Wazuh
 ```
+---
 ### 7️⃣ Validate FIM is working
 Create a file within the target directory `C:\Users\Public`
 
@@ -117,7 +118,8 @@ I created malware.txt file in the `C:\Users\Public\Documents` directory with dum
 
 ![Apache Installation Status](screenshots/1_apache_status.png) 
 
-### 9️⃣ View Windows FIM alert via Wazuh SIEM
+---
+### 8️⃣ View Windows FIM alert via Wazuh SIEM
 If the configurations are working we should be getting an alert in `FIM Security Events`
 
 FIM was **alerted** of a file that was added in our target directory:
@@ -132,7 +134,19 @@ This extended document details shows us exactly **what** file was changed, **who
 
 ![Apache Installation Status](screenshots/1_apache_status.png) 
 
-✅This confirms 
+✅This confirms that alert configuration and SIEM alerts are working for the target directory.
+
+---
+
+### 9️⃣ Testing for Registry Persistence
+I will use a service-based persistence:
+```bash
+New-Item `
+  "HKLM:\SYSTEM\CurrentControlSet\Services\EvilService"
+```
+![Apache Installation Status](screenshots/1_apache_status.png) 
+
+✅This confirms that alert configuration and SIEM alerts are working for the target registry path.
 
 
 
