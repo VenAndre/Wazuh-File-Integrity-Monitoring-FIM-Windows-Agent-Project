@@ -93,7 +93,7 @@ We're looking for the `<syscheck>` section near `File intergrity monitoring`.
 
 - Finally is **`report_changes`**, is a feature that enables the detection and logging of the exact content modifications additions or deletions within text files.
 
-  💡 Keep this file open for the nest steps
+  💡 Keep this file open for the next steps
   
 ### 🎯 Next, I want to monitor and detect registry persistence or modifications.
 
