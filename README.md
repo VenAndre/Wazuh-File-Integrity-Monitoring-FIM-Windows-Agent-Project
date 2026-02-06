@@ -1,6 +1,6 @@
 # 🛡️ Wazuh File Integrity Monitoring (FIM) – Windows Agent Project
 
-TThis project demonstrates hands-on implementation of File Integrity Monitoring (FIM) using Wazuh SIEM on a Windows endpoint to detect unauthorized file and registry changes. I configured a Wazuh agent on a local Microsoft Windows system to monitor the **`C:\Users\Public``** directory for **file creation**, **modification**, and **deletion events**, a common target for attacker tool staging and persistence.
+TThis project demonstrates hands-on implementation of File Integrity Monitoring (FIM) using Wazuh SIEM on a Windows endpoint to detect unauthorized file and registry changes. I configured a Wazuh agent on a local Microsoft Windows system to monitor the **`C:\Users\Public`** directory for **file creation**, **modification**, and **deletion events**, a common target for attacker tool staging and persistence.
 
 The solution aligns with **`PCI DSS`** and **`NIST 800-53`** compliance requirements and includes custom FIM and Windows Registry monitoring rules to detect persistence techniques mapped to **`MITRE ATT&CK T1547.01`** (Registry Run Keys / Startup Folder). The configuration leverages real-time monitoring **`(whodata)`** to capture user attribution, process execution context, and file change metadata.
 
